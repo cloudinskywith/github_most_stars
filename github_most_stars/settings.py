@@ -93,9 +93,9 @@ ROBOTSTXT_OBEY = False
 FEED_EXPORT_ENCODING = 'utf-8'
 
 RETRY_TIMES = 10
-RETRY_HTTP_CODES = [500, 503, 504, 400, 403, 404, 408, 429]
-PROXY_LIST = '/home/liaobaocheng/Python/github_most_stars/proxy_list.txt'
-PROXY_MODE = 0
+# RETRY_HTTP_CODES = [500, 503, 504, 400, 403, 404, 408, 429]
+# PROXY_LIST = '/home/liaobaocheng/Python/github_most_stars/proxy_list.txt'
+# PROXY_MODE = 0
 
 DOWNLOADER_MIDDLEWARES = {
     'scrapy.downloadermiddlewares.retry.RetryMiddleware': 80,
