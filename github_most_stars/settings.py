@@ -90,7 +90,7 @@ ROBOTSTXT_OBEY = False
 
 
 # Database settings
-
+FEED_EXPORT_ENCODING = 'utf-8'
 
 RETRY_TIMES = 10
 RETRY_HTTP_CODES = [500, 503, 504, 400, 403, 404, 408, 429]
@@ -104,4 +104,6 @@ DOWNLOADER_MIDDLEWARES = {
 }
 
 # add item pipeline
-ITEM_PIPELINES = {'github_most_stars.pipelines.GithubMostStarsPipeline': 400}
+ITEM_PIPELINES = {'github_most_stars.pipelines.GithubMostStarsPipeline': 400,
+                  'github_most_stars.pipelines.JsonWithEncodingPipeline': 401
+                  }
