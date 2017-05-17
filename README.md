@@ -152,7 +152,7 @@ ITEM_PIPELINES = {'github_most_stars.pipelines.GithubMostStarsPipeline': 400,
 配置了ITEM_PIPELINES和DOWNLOAD_MIDDLEWARES，还有重试次数，继续实战中学习scrapy吧
 
 [本案例项目地址](https://github.com/liaobaocheng/github_most_stars)
-![项目真相](/storage/vendor/Screenshot%20from%202017-05-10%2018-16-50.png)
+![项目真相](http://www.liaobaocheng.com/storage/vendor/Screenshot%20from%202017-05-10%2018-16-50.png)
 
 ### 6.bonus加点点
 [查看github上点赞数最多的项目,从高到低](https://github.com/search?q=stars%3A%3E1&ref=opensearch)
